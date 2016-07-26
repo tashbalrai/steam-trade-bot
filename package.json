@@ -2,7 +2,7 @@
   "name": "steam-generic-jackpot-bot",
   "version": "1.0.0",
   "description": "A generic steam quick deposit jackpot.",
-  "main": "bot.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
