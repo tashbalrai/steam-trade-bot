@@ -1,0 +1,47 @@
+{
+  "project": {
+    "name": "#_csgo010"
+  },
+  "bot": {
+    "mainbot": {
+      "account_name": "",
+      "password": "",
+      "steam_id": "",
+      "trade_token": "",
+      "reconnect_interval": 20
+    }
+  },
+  "trade": {
+    "manager": {
+      "domain": "example.com",
+      "language": "en",
+      "cancelTime": 120000,
+      "pollInterval": 10000,
+      "pendingCancelTime": 300000,
+      "cancelOfferCount": 20,
+      "confirmationPollInterval": 10000,
+      "pollDataKey": "trade_poll_data",
+      "maxRetries": 5,
+      "maxRetryDelay": 10000
+    }
+  },
+  "storage": {
+    "redis": {
+      "host": "localhost",
+      "port": 6379,
+      "prefix": "csgo:"
+    }
+  },
+  "app_id": {
+    "730": {
+      "limit": 50,
+      "max_items": 10,
+      "min_amount": 0,
+      "commission": {
+        "enabled": 0,
+        "percentage": 0.05,
+        "steam_id": ""
+      }
+    }
+  }
+}

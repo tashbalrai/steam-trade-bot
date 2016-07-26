@@ -1,0 +1,30 @@
+{
+  "name": "steam-generic-jackpot-bot",
+  "version": "1.0.0",
+  "description": "A generic steam quick deposit jackpot.",
+  "main": "bot.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "steam",
+    "quickdeposit",
+    "jackpot",
+    "bot"
+  ],
+  "author": "Vipan Balrai",
+  "license": "MIT",
+  "dependencies": {
+    "chance": "^1.0.1",
+    "debug": "^2.2.0",
+    "redis": "^2.6.0-0",
+    "steam": "^1.4.0",
+    "steam-totp": "^1.3.0",
+    "steam-tradeoffer-manager": "^2.0.0",
+    "steam-web-api-key": "0.0.3",
+    "steam-weblogon": "0.0.4"
+  }
+}
