@@ -38,13 +38,13 @@ bot.on('tradeManagerReady', () => {
 bot.on('confirmationPollingStarted', () => {
   console.log('Confirmation polling started');
   // trade.createOfferFromJson({
-    // p: {sid: '76561198063560612', un: 'Dummy User', img: 'userimage.png'},
+    // p: {sid: '76561198063000000000000', un: 'Dummy User', img: 'userimage.png'},
     // i: {'FAMAS | Survivor Z (Factory New)':0.543,
     // 'Operation Breakout Weapon Case':1.024},
     // t: 'ZmihIjR6',
     // c: ''
   // });
-  trade.getUserInventory(new SteamID('76561198063560612')).then(inventory => {
+  trade.getUserInventory(new SteamID('76561190000000000000')).then(inventory => {
     console.log(inventory);
   }).catch(err => {
     console.error(err);
